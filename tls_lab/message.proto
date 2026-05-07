@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PriceUpdate {
+  string symbol = 1;
+  string price = 2;
+}
